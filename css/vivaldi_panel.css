@@ -1,0 +1,124 @@
+.main_content {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 40px;
+    max-width: 100vw;
+    /* margin-left: 40px; */
+}
+
+* {
+    position: relative !important;
+    max-width: 95vw !important;
+}
+
+div#sidebar {
+    /* position: absolute; */
+    display: none;
+}
+
+.main_content {
+    margin-left: 20px;
+    max-width: 97vw !important;
+}
+
+#manage_websites {
+    display: grid;
+}
+
+.right_options {
+    margin-left: 0px;
+}
+
+.github-ribbon {
+    display: none;
+}
+
+#earn_respect, #earn_respect > div {
+    display: grid !important;
+    grid-template-columns: 1fr;
+    max-width: 83vw !important;
+    margin-left: -10px !important;
+}
+
+div#import_export {
+    display: none;
+}
+
+.fontawesome-credit {
+    margin-left: 40vw;
+}
+
+.extra_options {
+    display: none;
+}
+
+fieldset#add_freetime_fieldset {
+    /* display: grid !important; */
+    /* grid-template-columns: 1fr; */
+}
+
+#add_freetime_fieldset div {
+    display: grid !important;
+    grid-template-columns: 1fr;
+}
+
+.right_options {
+    display: none;
+}
+
+fieldset#add_freetime_fieldset {
+    display: none;
+}
+
+.addnewtask_container {
+    display: grid !important;
+    grid-template-columns: 1fr;
+}
+
+div#timespan_container {
+    max-width: 96vw;
+    overflow: scroll;
+    margin-left: -10px;
+}
+
+.respectscore_yourscore {
+    display: none;
+}
+
+.respect_score_display {
+    max-width: 80vw;
+}
+
+#prodowl-tasks_rewards #tasklist > li .task-container {
+    /* display: grid !important; */
+    grid-template-columns: 100vw;
+    grid-template-rows: 1fr 1fr;
+}
+
+#prodowl-tasks_rewards .task_container {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 1fr 1fr;
+}
+
+#prodowl-tasks_rewards #tasklist {
+    /* overflow: hidden; */
+}
+
+canvas {
+    max-width: 92vw;
+}
+
+div#browsing_stats > div:not(#browsing_stats_disabled_message) {
+    display: grid !important;
+    grid-template-columns: 1fr;
+}
+
+.browsing_limits_container {
+    width: 95vw;
+}
+
+
+.respectscore_red{
+    z-index: 500;
+}
